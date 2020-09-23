@@ -1,0 +1,346 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    background-color:  rgba(40, 231, 152, 0.521);
+    position: sticky;
+    z-index: 1;
+    top: 0;
+}
+
+.navbar .navbar-brand{
+    display: flex;
+    margin: 0px 80px;
+}
+.navbar-brand img{
+   width: 50px;
+}
+.navbar-brand h1{
+    font-size: 20px;
+    color: white;
+    padding-top: 7px;
+}
+#navbarNav{
+    margin-right: 10%;
+}
+.nav-item{
+    padding: 15px;
+}
+.nav-item a{
+    font-size: 15px;
+    font-weight: bold;
+    color: white;
+}
+/* Middle section */
+.middle{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: -1;
+}
+.text-section{
+    text-align: left;
+    align-items: center;
+    justify-items: center;
+}
+.text-section h1{}
+.text-section p{ }
+.text-section h6{
+    color: gray;
+    font-size: 12px;
+}
+.text-section li{
+    list-style: none;
+    color: rgba(14, 240, 146, 0.911) ;
+}
+li .fa{
+    padding-right: 8px;
+}
+.image-section{
+    margin-right: 100px;
+}
+.imgage-section img{
+
+}
+/* promo section */
+#container{
+    width: 100%;
+    left: 0%;
+    right: 0%;
+    z-index: -1;
+}
+
+.promotion{
+    display: flex;
+
+}
+.promo-1{
+    background-color: rgba(120, 157, 206, 0.534);
+    margin-right: 10px;
+    left: 0;
+}
+.promo-1 .heading{
+    text-align: center;
+    font-size: 30px;
+    margin-top: 20px;
+}
+
+.promo-1 p{
+    text-align: center;
+    font-size: 12px;
+}
+.promo-1 p span{
+    color: royalblue;
+}
+.promo-2{
+    background-color: rgb(220, 228, 220);
+    margin-left: 50px;
+    right: 0;
+}
+.round{
+    align-items: center;
+    justify-content: center;
+    margin: 20px 200px;
+}
+.round span{
+    height: 250px;
+    width: 250px;
+    background-color:  rgb(64, 139, 238);
+    border-radius: 50%;
+    display: inline-block;
+}
+.promo-2 p:nth-child(2){
+    text-align: center;
+    font-size: 10px;
+}
+.promo-2 p:nth-child(3){
+    text-align: center;
+    font-size: 30px;
+    margin-top: 10px;
+}
+.promo-2 p:nth-child(4){
+    text-align: center;
+    font-size: 15px;
+    margin-top: 10px;
+}
+   
+.button{
+    background-color: white;
+    height: 50px;
+    width: 250px;
+    color:  rgba(6, 245, 145, 0.521);
+    border-color: rgba(6, 245, 145, 0.521);
+    border-radius: 25px;
+    margin: 50px 550px;
+
+}
+
+/* Footer Section */
+.footer{
+   left: 0;
+   right: 0;
+   width: 100%;
+}
+.upper{
+    display: flex;
+    background-color: rgb(2, 2, 17);
+}
+.lower{
+    background-color: rgb(8, 8, 31);
+    height: 50px;
+    text-align: center;
+    justify-content: center;
+}
+.lower a{
+    color: white;
+    margin: 10px 20px;
+    padding-top: 10px;
+}
+.footer-text{
+    align-items: center;
+    justify-content: center;
+    margin: 20px auto;
+}
+.fooer-text h6{
+    color: rgb(243, 230, 223);
+}
+.footer-text a li{
+    list-style: none;
+    color: white;
+}
+/* ---------FEATURE PAGE CSS---------- */
+
+.container-fluid{
+    display: flex;
+}
+
+
+
+/* FEATURE SECTION BOX */
+.row{
+    
+}
+.left{
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+.right{
+    margin-left: 10px;
+    margin-bottom: 10px;
+} 
+.box{
+    
+}
+.left .box:nth-child(1){
+    background-color: rgba(70, 62, 99, 0.658);
+}
+.left .box:nth-child(2){
+    background-color: rgba(82, 126, 122, 0.637);
+}
+.left .box:nth-child(3){
+    background-color: rgba(138, 83, 129, 0.658);
+}
+.left .box:nth-child(4){
+    background-color: rgba(44, 82, 23, 0.568); 
+    
+}
+.right .box:nth-child(1){
+    background-color: rgb(111, 98, 155);
+}
+.right .box:nth-child(2){
+    background-color: rgb(161, 208, 219);
+}
+.right .box:nth-child(3){
+    background-color: rgb(230, 182, 231);
+}
+.right .box:nth-child(4){
+    background-color: rgb(218, 224, 158);
+}
+.box p{
+    text-align: left;
+    font-size: 15px;
+    width: 50%;
+    margin: 20px;
+}
+.box h2{
+    text-align: left;
+    font-size: 30px;
+    margin: 20px;
+}
+/* ---------DOWNLOAD PAGE CSS---------- */
+
+.box .image{
+    display: flex;
+}
+.box h2 span{
+    color: royalblue;
+}
+.box p span{
+    color: royalblue;
+}
+.box .btn{
+    width: 300px;
+    height: 50px;
+    border-radius: 30px;
+    color: white;
+    background-color: rgba(14, 240, 146, 0.911);
+    text-decoration: none;
+    margin: 30px ;
+}
+.box .btn a{
+    color: white;
+    justify-content: center;
+    padding-bottom: 5px;
+}
+.box .new{
+    margin-left: 20px;
+}
+
+/*-------------- security section css--------------- */
+.security-header{
+    background-color: rgb(9, 230, 108);
+    height: 200px;
+}
+.security-header h1{
+    text-align: center;
+    color: white;
+    padding-top: 80px;
+}
+.text-area{
+    margin: 50px;
+    padding: 0px 50px;
+}
+.show-case{
+    display: flex;
+}
+.show-case .show-1{
+    width: 50%;
+    padding: 50px;
+}
+.show-case .show-2{
+    width: 50%;
+    padding: 50px;
+}
+.show-1 .fa{
+    font-size: 50px;
+}
+.show-2 .fa{
+    font-size: 50px;
+}
+
+/* ----------FAQ SECTION------------ */
+.help{
+    background-color: rgb(217, 235, 234);
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.help h1{
+    color: rgba(14, 240, 146, 0.911);
+    padding: 20px;
+}
+/* Style the search field */
+form.example input[type=text] {
+    padding: 10px;
+    font-size: 17px;
+    width: 50%;
+    border: 1px solid grey;
+    border-radius: 30px;
+    background: #f1f1f1;
+  }
+.help h6{
+    padding: 20px;
+    color: rgba(14, 240, 146, 0.911);
+
+}
+.pakage{
+    display: flex;
+}
+.pack{
+    width: 35%;
+    padding: 20px;
+}
+.question h1{
+    font-weight: 300;
+    padding: 50px;
+}
+.pack h3{
+    color: rgba(14, 240, 146, 0.911);
+    font-weight: 400;
+    padding: 10px;
+}
+.pack a{
+    padding: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
