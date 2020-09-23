@@ -11,7 +11,7 @@
 
 .navbar .navbar-brand{
     display: flex;
-    margin: 0px 80px;
+    margin: 0px 5%;
 }
 .navbar-brand img{
    width: 50px;
@@ -132,7 +132,7 @@ li .fa{
     color:  rgba(6, 245, 145, 0.521);
     border-color: rgba(6, 245, 145, 0.521);
     border-radius: 25px;
-    margin: 50px 550px;
+    margin: 10% 40%;
 
 }
 
@@ -333,6 +333,7 @@ form.example input[type=text] {
 .pack a{
     padding: 10px;
 }
+
 /* MEADIAQUERRY FOR MOBILE VIEW */
 
 @media only screen and (max-width: 600px){
@@ -355,6 +356,14 @@ form.example input[type=text] {
 .pack{
     width: 80%;
     padding: 20px;
+}
+.show-case{
+    display: inline;
+}
+.show-case .show-1{
+    width: 80%;
+    padding: 50px;
+}
 }
 
 
