@@ -333,6 +333,30 @@ form.example input[type=text] {
 .pack a{
     padding: 10px;
 }
+/* MEADIAQUERRY FOR MOBILE VIEW */
+
+@media only screen and (max-width: 600px){
+
+.middle{
+    display: inline;
+}
+.promotion{
+    display: inline;
+}
+.container-fluid{
+    display: inline;
+}
+.box .image{
+    display: inline;
+}
+.pakage{
+    display: inline;
+}
+.pack{
+    width: 80%;
+    padding: 20px;
+}
+
 
 
 
